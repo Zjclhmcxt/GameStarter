@@ -8,10 +8,21 @@
     <UseWPF>true</UseWPF>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>aldxb-p1mhx-001.ico</ApplicationIcon>
+    <PackageIcon>银狼.jpg</PackageIcon>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.2</FileVersion>
+    <NeutralLanguage>zh-Hans</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="aldxb-p1mhx-001.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\84074\Desktop\银狼.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

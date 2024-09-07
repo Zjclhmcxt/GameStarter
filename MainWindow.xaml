@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Gamelauncher"
         mc:Ignorable="d"
         ResizeMode="CanMinimize"
-        Title="辣鸡启动器，但是米忽悠的更辣鸡" Height="450" Width="800">
+        Title="普通的启动器" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="0,0,0,304">
             <Label Content="选择游戏" Width="62"></Label>
@@ -28,7 +28,7 @@
                     Width="100" Height="30" 
                     Click="AddGame"/>
         </StackPanel>
-        <Label Content="我写烦了,直接改文件吧" Margin="326,285,326,94" ></Label>
+        <Label Content="我写烦了,路径有问题就直接改文件吧" Margin="326,285,326,94" ></Label>
         <Button Content="打开txt" Margin="346,341,346,48" Click="openTxt"></Button>
     </Grid>
 </Window>
